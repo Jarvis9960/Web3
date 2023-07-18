@@ -53,13 +53,24 @@ const KendurnsHero = () => {
             <p className="fn_desc fn_animated_text">
               Welcome to Bajrangi - A Sanctuary of Empathy and Triumph
             </p>
+            <h3 className="header_text fn_animated_text">
+              Join us, where immortality of souls is celebrated through
+              compassionate connections and rewarded through shared joy and
+              tokens
+            </h3>
           </div>
         </div>
       </div>
       <a href="#about" className="neoh_fn_down magic-hover magic-hover__square">
         <span className="text">Scroll Down</span>
         <span className="icon">
-          <Image src="/svg/kendurns-hero.svg" width={100} height={100} alt="" className="fn__svg" />
+          <Image
+            src="/svg/kendurns-hero.svg"
+            width={100}
+            height={100}
+            alt=""
+            className="fn__svg"
+          />
         </span>
       </a>
     </div>
