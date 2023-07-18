@@ -212,7 +212,17 @@ a.full_link {
 /*	xx) Header
 /*------------------------------------------------------------------*/
 
-
+/* Styles for the sticky text */
+.sticky-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  z-index: 100;
+}
 
 .header_text {
   display: inline-block;

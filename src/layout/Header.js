@@ -121,7 +121,7 @@ const Header = () => {
         <div className="container">
           <div className="header_in">
             <div className="logo">
-              <Link href="/">
+              <Link href="/kenburns">
                 <a>
                   <Image
                     src="/img/about/bajrangi-logo.jpg"

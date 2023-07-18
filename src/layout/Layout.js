@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Fragment, useEffect } from "react";
+import { Fragment, useEffect, useState } from "react";
 import VideoPopup from "../components/popup/VideoPopup";
 import {
   animationText,
@@ -12,6 +12,7 @@ import {
 import Footer from "./Footer";
 import Header from "./Header";
 import ScrollTop from "./ScrollTop";
+import Message from "./Message";
 
 const Layout = ({ children, pageName }) => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const Layout = ({ children, pageName }) => {
     window.addEventListener("scroll", stickyNav);
     window.addEventListener("scroll", progressTotop);
   }, []);
+
   return (
     <Fragment>
       <Head>
@@ -36,10 +38,10 @@ const Layout = ({ children, pageName }) => {
       <div className="neoh_fn_main" data-footer-sticky="">
         <Header />
         <div className="neoh_fn_content">{children}</div>
+        <Message />
         <Footer />
         <ScrollTop />
       </div>
-
       <div className="neoh_fn_moving_box"></div>
     </Fragment>
   );
