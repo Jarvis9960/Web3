@@ -61,7 +61,7 @@ const AddBlog = () => {
         <div className="neoh_fn_blog_page">
           <div className="container">
             <Popup open={open} closeOnDocumentClick onClose={closeModal}>
-              <a className="close" onClick={closeModal}>
+              <a className="close" onClick={closeModal} style={{color: "black"}}>
                 Close &times;
               </a>
               <div

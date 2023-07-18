@@ -27,6 +27,10 @@ const Layout = ({ children, pageName }) => {
       <Head>
         <title>Bajrangi Token</title>
         <link rel="icon" href="img/favicon.ico" />
+        <meta
+          name="description"
+          content="TheBajrangi.com is a sacred sanctuary where you can pour your heart out, just as Sita shared her love, Sughriva confessed his fears, and Vibhishana expressed his needs. Like Lord Hanuman, who knows all and guides with wisdom, you can share anything anonymously. Open your heart, receive suggestions, and find understanding, just as Hanuman showed his devotion to Lord Ram. Here, there are no judgments; everyone is embraced, and every story is cherished. Unveil your joys, achievements, knowledge, power, playfulness, and more. Not only will you find solace, but you can also earn tokens for every engagement on your blogs"
+        />
       </Head>
       <VideoPopup />
       <div className="neoh_fn_main" data-footer-sticky="">
