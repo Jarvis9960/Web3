@@ -27,16 +27,16 @@ const Header = () => {
           <div className="nav_menu">
             <ul>
               <li className="menu-item menu-item-has-children">
-                <a
-                  href="#"
+                <Link
+                  href="/kenburns"
                   onClick={(e) => {
                     e.preventDefault();
                     setHomeToggle(!homeToggle);
                   }}
                 >
                   Home
-                </a>
-                <ul
+                </Link>
+                {/* <ul
                   className="sub-menu"
                   style={{ display: homeToggle ? "block" : "none" }}
                 >
@@ -52,7 +52,7 @@ const Header = () => {
                   <li>
                     <Link href="/half-slider">Half Slider</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               {/* <li className="menu-item">
                 <Link href="/about">About</Link>
@@ -69,20 +69,34 @@ const Header = () => {
             <a
               href="https://opensea.io/"
               className="neoh_fn_button"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               <span className="icon">
-                <Image src="/svg/opensea.svg" width={100} height={100} alt="" className="fn__svg" />
+                <Image
+                  src="/svg/opensea.svg"
+                  width={100}
+                  height={100}
+                  alt=""
+                  className="fn__svg"
+                />
               </span>
               <span className="text">OpenSea</span>
             </a>
             <a
               href="https://discord.com/"
               className="neoh_fn_button"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               <span className="icon">
-                <Image src="/svg/discord.svg" width={100} height={100} alt="" className="fn__svg" />
+                <Image
+                  src="/svg/discord.svg"
+                  width={100}
+                  height={100}
+                  alt=""
+                  className="fn__svg"
+                />
               </span>
               <span className="text">Discord</span>
             </a>
@@ -93,15 +107,11 @@ const Header = () => {
           <div className="nf_left">
             <p>
               Copyright 2022- Designed &amp; Developed by{" "}
-              <a
-                href="thebajrangi.com"
-                target="_blank"
-              >
+              <a href="thebajrangi.com" target="_blank">
                 Bajrangi Token
               </a>
             </p>
           </div>
-          
         </div>
         {/* !Nav Footer */}
       </div>

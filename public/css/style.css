@@ -1475,7 +1475,7 @@ a.full_link{
 	width: 33.3333%;
 }
 .neoh_fn_moving_blog .item{
-	width: 100%;
+	width: 300%;
 }
 .neoh_fn_moving_blog .fn_date{
 	display: -webkit-flex;
@@ -4482,6 +4482,11 @@ a.full_link{
 	.neoh_fn_blog_page{
 		padding: 100px 0 95px;
 	}
+
+	.neoh_fn_moving_blog .item{
+		width: 180%;
+	}
+
 	/*collection*/
 	.neoh_fn_collectionpage{
 		padding: 100px 0;
@@ -4762,6 +4767,11 @@ a.full_link{
 		-o-flex-direction: column;
 		flex-direction: column;
 	}
+
+	.neoh_fn_moving_blog .item{
+		width: 100%;
+	}
+
 	.neoh_fn_comments .comment-avatar{
 		margin-right: 0;
 		margin-bottom: 14px;

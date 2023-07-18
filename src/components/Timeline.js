@@ -47,9 +47,9 @@ const Timeline = () => {
                     <span>March 09, 2023</span>
                   </p>
                   <h3 className="fn_title">
-                    <Link href="/roadmap-single">
+                    <p>
                       Bajrangi Token smart contract deployed
-                    </Link>
+                    </p>
                   </h3>
                 </div>
               </div>
@@ -76,7 +76,7 @@ const Timeline = () => {
                     <span>April 18, 2023</span>
                   </p>
                   <h3 className="fn_title">
-                    <Link href="/roadmap-single">Bajrangi Token distribution started</Link>
+                    <p>Bajrangi Token distribution started</p>
                   </h3>
                   
                 </div>
@@ -104,7 +104,7 @@ const Timeline = () => {
                     <span>Aug 27, 2024</span>
                   </p>
                   <h3 className="fn_title">
-                    <Link href="/roadmap-single">Applying for STO</Link>
+                    <p>Applying for STO</p>
                   </h3>
                 </div>
               </div>
@@ -131,7 +131,7 @@ const Timeline = () => {
                     <span>Nov 09, 2025</span>
                   </p>
                   <h3 className="fn_title">
-                    <Link href="/roadmap-single"> Applying for Bajrangi DeX</Link>
+                    <p> Applying for Bajrangi DeX</p>
                   </h3>
                   
                 </div>
@@ -159,9 +159,9 @@ const Timeline = () => {
                     <span>March 18, 2026</span>
                   </p>
                   <h3 className="fn_title">
-                    <Link href="/roadmap-single">
+                    <p>
                       Applying for DeFi
-                    </Link>
+                    </p>
                   </h3>
                 </div>
               </div>
