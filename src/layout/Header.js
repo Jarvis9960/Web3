@@ -136,13 +136,6 @@ const Header = () => {
                 </a>
               </Link>
             </div>
-
-            <h3 className="header_text fn_animated_text">
-              Join us, where immortality of souls is celebrated through
-              compassionate connections and rewarded through shared joy and
-              tokens
-            </h3>
-
             <div className="trigger">
               <div className="trigger_in" onClick={() => setToggle(!toggle)}>
                 <span className="text">Menu</span>
