@@ -30,7 +30,6 @@ const Blog = () => {
       url: `https://bajrangi-backend.onrender.com/api/getallblogs?page=${page}`,
     })
       .then((res) => {
-        console.log(res);
         setBlogData([...blogData, ...res.data.savedBlog]);
       })
       .catch((err) => console.log(err));
